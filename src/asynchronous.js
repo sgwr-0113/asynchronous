@@ -17,5 +17,5 @@ const getGitUsername = () => {
 };
 
 const message = 'GitのユーザーIDは'
-const username = getGitUsername()
-console.log(message + username)
+const username = getGitUsername()  // 非同期処理にしたので後回しにされる
+console.log(message + username)  // 結果としてundefinedのまま出力される
