@@ -1,3 +1,4 @@
+// Promiseを用いた非同期処理
 import fetch from 'node-fetch';
 
 const getUsername = () => {

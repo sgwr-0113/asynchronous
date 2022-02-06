@@ -1,5 +1,4 @@
-// 一番オススメ！
-
+// async,awaitを用いた方法 一番オススメ！
 import fetch from 'node-fetch';
 
 const getUsername = async () => {  // 関数にasyncをつけて

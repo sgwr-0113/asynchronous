@@ -1,6 +1,7 @@
+// 非同期処理とは
 import fetch from 'node-fetch';
 
-// 非同期処理をおこなう関数を宣言
+// 非同期処理をおこなう関数
 const getUsername = () => {
     const url = 'https://jsonplaceholder.typicode.com/users/1'
 

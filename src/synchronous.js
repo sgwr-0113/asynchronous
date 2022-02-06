@@ -1,4 +1,4 @@
-// 同期処理を行う関数を宣言
+// 同期処理
 const synchronousFunc = () => {
   console.log("寄り道して同期処理実行中")
   return '完了！'
